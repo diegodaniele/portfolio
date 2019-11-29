@@ -1,0 +1,38 @@
+{
+  "homepage": "http://diegodaniele.github.io/diego-portfolio",
+  "name": "diego-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "flatten": "^1.0.3",
+    "lodash-es": "^4.17.11",
+    "react": "16.8.4",
+    "react-animations": "^1.0.0",
+    "react-awesome-slider": "^2.2.1",
+    "react-dom": "16.8.4",
+    "react-scripts": "^2.1.8",
+    "react-spring": "8.0.27",
+    "react-three-fiber": "2.2.14",
+    "react-typist": "^2.0.5",
+    "three": "0.107.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
